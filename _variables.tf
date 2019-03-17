@@ -1,5 +1,5 @@
 variable "name" {
-  description = "Name for the organization and prefix for all accounts"
+  description = "Name for the account to be created"
 }
 
 variable "email" {
