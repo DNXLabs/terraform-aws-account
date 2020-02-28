@@ -1,5 +1,8 @@
 # terraform-aws-account
 
+[![Lint Status](https://github.com/DNXLabs/terraform-aws-account/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-account/actions)
+[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-account)](https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE)
+
 This terraform module creates a simple AWS account.
 
 ## Usage
