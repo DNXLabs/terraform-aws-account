@@ -20,6 +20,25 @@ Deploy this module to your `_master_ account`.
 You will need an AWS Organization created in the _master_ account. See [terraform-aws-organization](https://github.com/DNXLabs/terraform-aws-organization)
 
 <!--- BEGIN_TF_DOCS --->
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:-----:|
+| email | Email address for this account, needs to be unique | `any` | n/a | yes |
+| name | Name for the account to be created | `any` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| account\_id | ID of the account created |
+| email | Email of account |
 <!--- END_TF_DOCS --->
 
 ## Authors
