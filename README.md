@@ -15,27 +15,17 @@ module "my_account" {
 }
 ```
 
-Deploy this module to your _master_ account.
+Deploy this module to your `_master_ account`.
 
 You will need an AWS Organization created in the _master_ account. See [terraform-aws-organization](https://github.com/DNXLabs/terraform-aws-organization)
 
-## Inputs
-
-| Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| email | Email address for this account, needs to be unique | string | n/a | yes |
-| name | Name for the account to be created | string | n/a | yes |
-
-## Outputs
-
-| Name | Description |
-|------|-------------|
-| account\_id | ID of the account created |
+<!--- BEGIN_TF_DOCS --->
+<!--- END_TF_DOCS --->
 
 ## Authors
 
-Module managed by [Allan Denot](https://github.com/adenot).
+Module managed by [DNX Solutions](https://github.com/DNXLabs).
 
 ## License
 
-Apache 2 Licensed. See LICENSE for full details.
+Apache 2 Licensed. See [LICENSE](https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE) for full details.
