@@ -32,6 +32,7 @@ You will need an AWS Organization created in the _master_ account. See [terrafor
 |------|-------------|------|---------|:-----:|
 | email | Email address for this account, needs to be unique | `any` | n/a | yes |
 | name | Name for the account to be created | `any` | n/a | yes |
+| ssm\_name | Name of account to use on SSM path. Only required if name has invalid characters | `string` | `""` | no |
 
 ## Outputs
 
