@@ -20,6 +20,12 @@ Deploy this module to your `_master_ account`.
 You will need an AWS Organization created in the _master_ account. See [terraform-aws-organization](https://github.com/DNXLabs/terraform-aws-organization)
 
 <!--- BEGIN_TF_DOCS --->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| terraform | >= 0.12.20 |
+
 ## Providers
 
 | Name | Version |
@@ -29,7 +35,7 @@ You will need an AWS Organization created in the _master_ account. See [terrafor
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | email | Email address for this account, needs to be unique | `any` | n/a | yes |
 | name | Name for the account to be created | `any` | n/a | yes |
 | ssm\_name | Name of account to use on SSM path. Only required if name has invalid characters | `string` | `""` | no |
@@ -40,6 +46,7 @@ You will need an AWS Organization created in the _master_ account. See [terrafor
 |------|-------------|
 | account\_id | ID of the account created |
 | email | Email of account |
+
 <!--- END_TF_DOCS --->
 
 ## Authors
