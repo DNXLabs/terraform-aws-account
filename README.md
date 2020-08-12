@@ -1,9 +1,25 @@
 # terraform-aws-account
 
+Terraform-aws-account is an AWS Modules that creates a simple AWS account.
+
+This module requires:
+ - Terraform Version >=0.12.20
+
+This modules creates the following resources:
+ - AWS Account
+    - Email address for this account, needs to be unique
+    - Name for the account to be created
+    - Deny access to billing
+
+In addition you have the option to:
+ - Provides System Manager (SSM) Parameter resource
+    -  Account ID
+    -  Account e-mail
+
 [![Lint Status](https://github.com/DNXLabs/terraform-aws-account/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-account/actions)
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-account)](https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE)
 
-This terraform module creates a simple AWS account.
+
 
 ## Usage
 
