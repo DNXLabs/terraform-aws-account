@@ -1,6 +1,9 @@
 # terraform-aws-account
 
 Terraform-aws-account is an AWS Modules that creates a simple AWS account.
+Deploy this module to your _master_ account.
+
+You will need an AWS Organization created in the master account. See `DNXLabs\terraform-aws-organization' (https://github.com/DNXLabs/terraform-aws-organization)
 
 This module requires:
  - Terraform Version >=0.12.20
