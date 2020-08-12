@@ -1,12 +1,10 @@
 # terraform-aws-account
 
-Terraform-aws-account is an AWS Modules that creates a simple AWS account.
+[![Lint Status](https://github.com/DNXLabs/terraform-aws-account/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-account/actions)
+[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-account)](https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE)
+
+This terraform module creates a simple AWS account.
 Deploy this module to your _master_ account.
-
-You will need an AWS Organization created in the master account. See `DNXLabs\terraform-aws-organization' (https://github.com/DNXLabs/terraform-aws-organization)
-
-This module requires:
- - Terraform Version >=0.12.20
 
 This modules creates the following resources:
  - AWS Account
@@ -19,10 +17,6 @@ In addition you have the option to:
     -  Account ID
     -  Account e-mail
 
-[![Lint Status](https://github.com/DNXLabs/terraform-aws-account/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-account/actions)
-[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-account)](https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE)
-
-
 
 ## Usage
 
@@ -33,10 +27,6 @@ module "my_account" {
   email  = "aws+my-account@mycompany.org"
 }
 ```
-
-Deploy this module to your `_master_ account`.
-
-You will need an AWS Organization created in the _master_ account. See [terraform-aws-organization](https://github.com/DNXLabs/terraform-aws-organization)
 
 <!--- BEGIN_TF_DOCS --->
 
