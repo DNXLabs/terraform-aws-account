@@ -4,6 +4,19 @@
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-account)](https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE)
 
 This terraform module creates a simple AWS account.
+Deploy this module to your _master_ account.
+
+This modules creates the following resources:
+ - AWS Account
+    - Email address for this account, needs to be unique
+    - Name for the account to be created
+    - Deny access to billing
+
+In addition you have the option to:
+ - Provides System Manager (SSM) Parameter resource
+    -  Account ID
+    -  Account e-mail
+
 
 ## Usage
 
@@ -14,8 +27,6 @@ module "my_account" {
   email  = "aws+my-account@mycompany.org"
 }
 ```
-
-Deploy this module to your `_master_ account`.
 
 You will need an AWS Organization created in the _master_ account. See [terraform-aws-organization](https://github.com/DNXLabs/terraform-aws-organization)
 
