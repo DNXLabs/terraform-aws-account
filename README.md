@@ -28,6 +28,8 @@ module "my_account" {
 }
 ```
 
+You will need an AWS Organization created in the _master_ account. See [terraform-aws-organization](https://github.com/DNXLabs/terraform-aws-organization)
+
 <!--- BEGIN_TF_DOCS --->
 
 ## Requirements
