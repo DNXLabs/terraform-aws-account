@@ -36,7 +36,7 @@ You will need an AWS Organization created in the _master_ account. See [terrafor
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.12.20 |
+| terraform | >= 0.12.0 |
 
 ## Providers
 
